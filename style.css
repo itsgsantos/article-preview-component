@@ -109,8 +109,8 @@ article.container {
 
 .icons #share {
   width: 26px;
-  height: 26px;
-  padding: 6px;
+  height: 25px;
+  padding: 4px;
   cursor: pointer;
   border-radius: 50%;
   background-color: var(--color04);
@@ -191,13 +191,14 @@ article.container {
   }
 
   #sociais {
-    top: 84%;
+    margin-top: 2px;
+    top: auto;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 72px;
     border-radius: 0px 0px 12px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
     background-color: var(--color01);
-    /* background-color: rgba(255, 0, 0, 0.25); */
   }
 
   .icons #sociais::after {
