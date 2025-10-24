@@ -1,19 +1,20 @@
-const html = document.documentElement;
-const share = document.querySelector("#share");
-const sociais = document.querySelector("#sociais");
+const share = document.querySelector('#share');
+const sociais = document.querySelector('#sociais');
+const imgShare = document.querySelector('#imgShare');
 
-function handleClick(event) {
-  const target = event.target;
+function showShare() {
+  share.classList.add('ativo');
+  sociais.classList.add('ativo');
+  imgShare.classList.add('ativo');
+}
 
-  if (target === share) {
-    share.classList.add("ativo");
-    sociais.classList.add("ativo");
-  } else {
-    share.classList.remove("ativo");
-    sociais.classList.remove("ativo");
+function hideShare({ target }) {
+  if (!share.contains(target) && !sociais.contains(target)) {
+    share.classList.remove('ativo');
+    imgShare.classList.remove('ativo');
+    sociais.classList.remove('ativo');
   }
 }
 
-["touchstart", "click"].forEach((userEvent) => {
-  html.addEventListener(userEvent, handleClick);
-});
+share.addEventListener('click', showShare);
+document.addEventListener('click', hideShare);
