@@ -1,64 +1,84 @@
-# 📰 **ARTICLE PREVIEW COMPONENT**
+# 📰 Article Preview | Interactive UI Component
 
-**Componente de pré-visualização de artigo moderno**  
-Um projeto desenvolvido para praticar **layout clean**, **responsividade** e **componentes interativos**.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ap-fm.vercel.app/)
 
-🔗 **Demo online:** [ap-fm.vercel.app](https://ap-fm.vercel.app/)  
-🎨 **Design / Desafio:** [Frontend Mentor – Article Preview Component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
+**Article Preview Component** is a refined UI module from Frontend Mentor that simulates a blog post summary. The project highlights the implementation of interactive social sharing features, requiring precise control over layout shifts and element positioning between mobile and desktop views.
 
----
-
-## 📸 **Preview Geral**
-
-![preview](https://github.com/itsgsantos/article-preview-component/raw/main/design/desktop-preview.jpg)
+🔗 **Live Demo:** [ap-fm.vercel.app](https://ap-fm.vercel.app/)
 
 ---
 
-## 💻 **Versões Desktop / Mobile**
+## 📸 Interface Preview
 
-| Desktop | Mobile |
-|---------|--------|
-| ![desktop](https://github.com/user-attachments/assets/5af4d29d-9a93-4a6e-ad7d-97650149b502) | ![mobile](https://github.com/user-attachments/assets/5611ab2e-0606-4300-a981-5e6ed26f5e0d) |
+<p align="center">
+  <img src="https://github.com/itsgsantos/article-preview-component/raw/main/design/desktop-preview.jpg" width="100%" alt="Article Preview Full Preview" />
+</p>
 
----
+### **Responsive Views**
 
-## 🚀 **Tecnologias Utilizadas**
-
-Este projeto foi desenvolvido com:
-
-- **HTML5** – marcação semântica e acessível  
-- **CSS3** – Flexbox, Grid e variáveis CSS para cores e espaçamento  
-- **JavaScript (ES6+)** – pequenas interações (hover, share button)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5af4d29d-9a93-4a6e-ad7d-97650149b502" width="65%" alt="Article Preview Desktop" />
+  <img src="https://github.com/user-attachments/assets/5611ab2e-0606-4300-a981-5e6ed26f5e0d" width="28%" alt="Article Preview Mobile" />
+</p>
 
 ---
 
-## 📚 **Aprendizados**
+## 🚀 Technical Features
 
-Durante o desenvolvimento deste projeto, pratiquei:
+* **Dynamic Share Tooltip:** Custom JavaScript logic to toggle a share menu, utilizing absolute positioning for a professional tooltip effect on desktop.
+* **Mobile Interaction State:** A dedicated mobile view that replaces the author section with social links, ensuring a thumb-friendly user experience.
+* **Complex Asset Clipping:** Strategic use of `overflow: hidden` and object-fit properties to maintain image integrity within a dual-column card.
+* **Responsive Typography:** Implementation of a strict design system based on professional UI standards, focusing on hierarchy and legibility.
+* **State-Driven Styling:** Use of CSS classes and JavaScript to manage active/inactive states for the sharing interface.
 
-- 💻 Criar um **layout moderno e responsivo**  
-- 🎨 Aplicar **tipografia, cores e hierarquia visual**  
-- 🧩 Trabalhar com **componentes interativos**  
-- 🧱 Organizar código de forma **limpa e modular**
+## 🛠️ Tech Stack
+
+- **Structure:** HTML5 (Semantic)
+- **Styling:** CSS3 (Flexbox, Grid, Absolute Positioning)
+- **Logic:** Vanilla JavaScript (ES6+)
+- **Deployment:** Vercel
+
+## 🧠 Key Learnings
+
+Building this component was an excellent exercise in **UI state control** and **asymmetrical layouts**.
+
+**Main Takeaways:**
+- Mastering **absolute and relative positioning** to create non-disruptive tooltips.
+- Implementing design shifts that change component behavior based on viewport width (Art Direction).
+- Handling **DOM events** to manage user interaction and UI feedback.
+- Organizing CSS with custom variables to maintain a clean, "Apple-style" aesthetic.
 
 ---
 
-## ⚙️ **Funcionalidades**
+## 💻 Getting Started
 
-- ✅ Layout responsivo (desktop, tablet e mobile)  
-- ✅ Botão de compartilhamento interativo  
-- ✅ Estrutura semântica e acessível  
-- ✅ Estilos consistentes com o design do Frontend Mentor
+### Prerequisites
+A modern web browser and a code editor.
+
+### Local Execution
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/itsgsantos/article-preview-component.git](https://github.com/itsgsantos/article-preview-component.git)
+    ```
+2.  **Navigate to the folder:**
+    ```bash
+    cd article-preview-component
+    ```
+3.  **Run the project:**
+    Open `index.html` in your browser.
 
 ---
 
-## 🧩 **Como executar localmente**
+## 📫 Connect with Me
 
-```bash
-# Clone este repositório
-git clone https://github.com/itsgsantos/article-preview-component.git
+- **GitHub:** [@itsgsantos](https://github.com/itsgsantos)
+- **Frontend Mentor:** [@itsgsantos](https://www.frontendmentor.io/profile/itsgsantos)
 
-# Acesse a pasta do projeto
-cd article-preview-component
+---
 
-# Abra o arquivo index.html no navegador ou use Live Server
+<p align="center">
+  Coded with 📰 and Interaction by <strong>Guilherme Santos</strong>
+</p>
